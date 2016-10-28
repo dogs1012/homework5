@@ -1,0 +1,19 @@
+package star;
+import java.util.Scanner;
+public class TriangleStars { void TS(){
+Scanner s = new Scanner(System.in); 
+int i;int j; 
+System.out.println("직삼각형의 왼쪽 여백과 높이 입력");  
+int S = s.nextInt(); 
+int A = s.nextInt(); 
+for(i=S; i >=1;i--){ 
+for(j=1;j<i;j++)   {   
+System.out.print("");  
+}  
+for(j=A;j>=i;j--){ 
+System.out.print("*");  
+System.out.print(""); 
+}   
+}  
+}
+}
